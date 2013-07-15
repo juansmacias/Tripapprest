@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC64FCB1793D8460033CA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCA1793D8460033CA8C /* UIKit.framework */; };
+		FAC64FCD1793D8460033CA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCC1793D8460033CA8C /* Foundation.framework */; };
+		FAC64FCF1793D8460033CA8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCE1793D8460033CA8C /* CoreGraphics.framework */; };
+		FAC64FD51793D8460033CA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FD31793D8460033CA8C /* InfoPlist.strings */; };
+		FAC64FD71793D8460033CA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FD61793D8460033CA8C /* main.m */; };
+		FAC64FDB1793D8460033CA8C /* co_edu_uniandesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FDA1793D8460033CA8C /* co_edu_uniandesAppDelegate.m */; };
+		FAC64FDD1793D8460033CA8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FDC1793D8460033CA8C /* Default.png */; };
+		FAC64FDF1793D8460033CA8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FDE1793D8460033CA8C /* Default@2x.png */; };
+		FAC64FE11793D8460033CA8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FE01793D8460033CA8C /* Default-568h@2x.png */; };
+		FAC64FE41793D8460033CA8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FE21793D8460033CA8C /* MainStoryboard.storyboard */; };
+		FAC64FE71793D8460033CA8C /* co_edu_uniandesMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */; };
+		FAC64FEA1793D8460033CA8C /* co_edu_uniandesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FE91793D8460033CA8C /* co_edu_uniandesDetailViewController.m */; };
+		FAC64FF21793D8470033CA8C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FF11793D8470033CA8C /* SenTestingKit.framework */; };
+		FAC64FF31793D8470033CA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCA1793D8460033CA8C /* UIKit.framework */; };
+		FAC64FF41793D8470033CA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCC1793D8460033CA8C /* Foundation.framework */; };
+		FAC64FFC1793D8470033CA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FFA1793D8470033CA8C /* InfoPlist.strings */; };
+		FAC64FFF1793D8470033CA8C /* TripapprestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FFE1793D8470033CA8C /* TripapprestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC64FF51793D8470033CA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC64FBF1793D8460033CA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC64FC61793D8460033CA8C;
+			remoteInfo = Tripapprest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC64FC71793D8460033CA8C /* Tripapprest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripapprest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC64FCA1793D8460033CA8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAC64FCC1793D8460033CA8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC64FCE1793D8460033CA8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAC64FD21793D8460033CA8C /* Tripapprest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tripapprest-Info.plist"; sourceTree = "<group>"; };
+		FAC64FD41793D8460033CA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC64FD61793D8460033CA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC64FD81793D8460033CA8C /* Tripapprest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tripapprest-Prefix.pch"; sourceTree = "<group>"; };
+		FAC64FD91793D8460033CA8C /* co_edu_uniandesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesAppDelegate.h; sourceTree = "<group>"; };
+		FAC64FDA1793D8460033CA8C /* co_edu_uniandesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesAppDelegate.m; sourceTree = "<group>"; };
+		FAC64FDC1793D8460033CA8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAC64FDE1793D8460033CA8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAC64FE01793D8460033CA8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAC64FE31793D8460033CA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FAC64FE51793D8460033CA8C /* co_edu_uniandesMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesMasterViewController.h; sourceTree = "<group>"; };
+		FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesMasterViewController.m; sourceTree = "<group>"; };
+		FAC64FE81793D8460033CA8C /* co_edu_uniandesDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesDetailViewController.h; sourceTree = "<group>"; };
+		FAC64FE91793D8460033CA8C /* co_edu_uniandesDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesDetailViewController.m; sourceTree = "<group>"; };
+		FAC64FF01793D8470033CA8C /* TripapprestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripapprestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC64FF11793D8470033CA8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAC64FF91793D8470033CA8C /* TripapprestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TripapprestTests-Info.plist"; sourceTree = "<group>"; };
+		FAC64FFB1793D8470033CA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC64FFD1793D8470033CA8C /* TripapprestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripapprestTests.h; sourceTree = "<group>"; };
+		FAC64FFE1793D8470033CA8C /* TripapprestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripapprestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC64FC41793D8460033CA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FCB1793D8460033CA8C /* UIKit.framework in Frameworks */,
+				FAC64FCD1793D8460033CA8C /* Foundation.framework in Frameworks */,
+				FAC64FCF1793D8460033CA8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC64FEC1793D8470033CA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FF21793D8470033CA8C /* SenTestingKit.framework in Frameworks */,
+				FAC64FF31793D8470033CA8C /* UIKit.framework in Frameworks */,
+				FAC64FF41793D8470033CA8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC64FBE1793D8460033CA8C = {
+			isa = PBXGroup;
+			children = (
+				FAC64FD01793D8460033CA8C /* Tripapprest */,
+				FAC64FF71793D8470033CA8C /* TripapprestTests */,
+				FAC64FC91793D8460033CA8C /* Frameworks */,
+				FAC64FC81793D8460033CA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC64FC81793D8460033CA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FC71793D8460033CA8C /* Tripapprest.app */,
+				FAC64FF01793D8470033CA8C /* TripapprestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC64FC91793D8460033CA8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FCA1793D8460033CA8C /* UIKit.framework */,
+				FAC64FCC1793D8460033CA8C /* Foundation.framework */,
+				FAC64FCE1793D8460033CA8C /* CoreGraphics.framework */,
+				FAC64FF11793D8470033CA8C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC64FD01793D8460033CA8C /* Tripapprest */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FD91793D8460033CA8C /* co_edu_uniandesAppDelegate.h */,
+				FAC64FDA1793D8460033CA8C /* co_edu_uniandesAppDelegate.m */,
+				FAC64FE21793D8460033CA8C /* MainStoryboard.storyboard */,
+				FAC64FE51793D8460033CA8C /* co_edu_uniandesMasterViewController.h */,
+				FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */,
+				FAC64FE81793D8460033CA8C /* co_edu_uniandesDetailViewController.h */,
+				FAC64FE91793D8460033CA8C /* co_edu_uniandesDetailViewController.m */,
+				FAC64FD11793D8460033CA8C /* Supporting Files */,
+			);
+			path = Tripapprest;
+			sourceTree = "<group>";
+		};
+		FAC64FD11793D8460033CA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FD21793D8460033CA8C /* Tripapprest-Info.plist */,
+				FAC64FD31793D8460033CA8C /* InfoPlist.strings */,
+				FAC64FD61793D8460033CA8C /* main.m */,
+				FAC64FD81793D8460033CA8C /* Tripapprest-Prefix.pch */,
+				FAC64FDC1793D8460033CA8C /* Default.png */,
+				FAC64FDE1793D8460033CA8C /* Default@2x.png */,
+				FAC64FE01793D8460033CA8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC64FF71793D8470033CA8C /* TripapprestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FFD1793D8470033CA8C /* TripapprestTests.h */,
+				FAC64FFE1793D8470033CA8C /* TripapprestTests.m */,
+				FAC64FF81793D8470033CA8C /* Supporting Files */,
+			);
+			path = TripapprestTests;
+			sourceTree = "<group>";
+		};
+		FAC64FF81793D8470033CA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC64FF91793D8470033CA8C /* TripapprestTests-Info.plist */,
+				FAC64FFA1793D8470033CA8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC64FC61793D8460033CA8C /* Tripapprest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC650021793D8470033CA8C /* Build configuration list for PBXNativeTarget "Tripapprest" */;
+			buildPhases = (
+				FAC64FC31793D8460033CA8C /* Sources */,
+				FAC64FC41793D8460033CA8C /* Frameworks */,
+				FAC64FC51793D8460033CA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripapprest;
+			productName = Tripapprest;
+			productReference = FAC64FC71793D8460033CA8C /* Tripapprest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC64FEF1793D8470033CA8C /* TripapprestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC650051793D8470033CA8C /* Build configuration list for PBXNativeTarget "TripapprestTests" */;
+			buildPhases = (
+				FAC64FEB1793D8470033CA8C /* Sources */,
+				FAC64FEC1793D8470033CA8C /* Frameworks */,
+				FAC64FED1793D8470033CA8C /* Resources */,
+				FAC64FEE1793D8470033CA8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC64FF61793D8470033CA8C /* PBXTargetDependency */,
+			);
+			name = TripapprestTests;
+			productName = TripapprestTests;
+			productReference = FAC64FF01793D8470033CA8C /* TripapprestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC64FBF1793D8460033CA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = co_edu_uniandes;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Innovandes.co;
+			};
+			buildConfigurationList = FAC64FC21793D8460033CA8C /* Build configuration list for PBXProject "Tripapprest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAC64FBE1793D8460033CA8C;
+			productRefGroup = FAC64FC81793D8460033CA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC64FC61793D8460033CA8C /* Tripapprest */,
+				FAC64FEF1793D8470033CA8C /* TripapprestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC64FC51793D8460033CA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FD51793D8460033CA8C /* InfoPlist.strings in Resources */,
+				FAC64FDD1793D8460033CA8C /* Default.png in Resources */,
+				FAC64FDF1793D8460033CA8C /* Default@2x.png in Resources */,
+				FAC64FE11793D8460033CA8C /* Default-568h@2x.png in Resources */,
+				FAC64FE41793D8460033CA8C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC64FED1793D8470033CA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FFC1793D8470033CA8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAC64FEE1793D8470033CA8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC64FC31793D8460033CA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FD71793D8460033CA8C /* main.m in Sources */,
+				FAC64FDB1793D8460033CA8C /* co_edu_uniandesAppDelegate.m in Sources */,
+				FAC64FE71793D8460033CA8C /* co_edu_uniandesMasterViewController.m in Sources */,
+				FAC64FEA1793D8460033CA8C /* co_edu_uniandesDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC64FEB1793D8470033CA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC64FFF1793D8470033CA8C /* TripapprestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC64FF61793D8470033CA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC64FC61793D8460033CA8C /* Tripapprest */;
+			targetProxy = FAC64FF51793D8470033CA8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC64FD31793D8460033CA8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC64FD41793D8460033CA8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAC64FE21793D8460033CA8C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC64FE31793D8460033CA8C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC64FFA1793D8470033CA8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC64FFB1793D8470033CA8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC650001793D8470033CA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC650011793D8470033CA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC650031793D8470033CA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tripapprest/Tripapprest-Prefix.pch";
+				INFOPLIST_FILE = "Tripapprest/Tripapprest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAC650041793D8470033CA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tripapprest/Tripapprest-Prefix.pch";
+				INFOPLIST_FILE = "Tripapprest/Tripapprest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAC650061793D8470033CA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tripapprest.app/Tripapprest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tripapprest/Tripapprest-Prefix.pch";
+				INFOPLIST_FILE = "TripapprestTests/TripapprestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAC650071793D8470033CA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tripapprest.app/Tripapprest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tripapprest/Tripapprest-Prefix.pch";
+				INFOPLIST_FILE = "TripapprestTests/TripapprestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC64FC21793D8460033CA8C /* Build configuration list for PBXProject "Tripapprest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC650001793D8470033CA8C /* Debug */,
+				FAC650011793D8470033CA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC650021793D8470033CA8C /* Build configuration list for PBXNativeTarget "Tripapprest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC650031793D8470033CA8C /* Debug */,
+				FAC650041793D8470033CA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC650051793D8470033CA8C /* Build configuration list for PBXNativeTarget "TripapprestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC650061793D8470033CA8C /* Debug */,
+				FAC650071793D8470033CA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC64FBF1793D8460033CA8C /* Project object */;
+}
