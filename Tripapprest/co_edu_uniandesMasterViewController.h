@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface co_edu_uniandesMasterViewController : UITableViewController
+
+@property (strong, nonatomic) IBOutlet UITableView *tablaMenu;
+@property (strong, nonatomic) NSArray *menulista;
 
 @end
