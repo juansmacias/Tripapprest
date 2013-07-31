@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0EDFC1179EE9840010C47F /* icono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFC0179EE9840010C47F /* icono.jpg */; };
+		FA0EDFC3179EEDC20010C47F /* Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFC2179EEDC20010C47F /* Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg */; };
+		FA0EDFC5179EEE450010C47F /* logo_uniandes copia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFC4179EEE450010C47F /* logo_uniandes copia.jpg */; };
+		FA0EDFC7179EEEAA0010C47F /* IMG_1577.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFC6179EEEAA0010C47F /* IMG_1577.JPG */; };
+		FA0EDFC9179EEFBA0010C47F /* Estrellita.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFC8179EEFBA0010C47F /* Estrellita.png */; };
+		FA0EDFCB179EF0220010C47F /* estrella mas puntas.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFCA179EF0220010C47F /* estrella mas puntas.png */; };
+		FA0EDFCD179EF09B0010C47F /* camara.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA0EDFCC179EF09B0010C47F /* camara.jpeg */; };
+		FA9D313E179497D1002F212B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9D313C179497D1002F212B /* menu.png */; };
+		FA9D313F179497D1002F212B /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9D313D179497D1002F212B /* menu@2x.png */; };
+		FA9D31501795C611002F212B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D314F1795C611002F212B /* SWRevealViewController.m */; };
+		FA9D31571795C892002F212B /* co_edu_uniandesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D31561795C892002F212B /* co_edu_uniandesMainViewController.m */; };
+		FA9D31581795C892002F212B /* co_edu_uniandesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D31561795C892002F212B /* co_edu_uniandesMainViewController.m */; };
+		FA9D315A179607DD002F212B /* 1366447141-sky-clouds-file.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9D3159179607DD002F212B /* 1366447141-sky-clouds-file.jpg */; };
+		FA9D315B179607DD002F212B /* 1366447141-sky-clouds-file.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9D3159179607DD002F212B /* 1366447141-sky-clouds-file.jpg */; };
+		FA9D315E179611B7002F212B /* co_edu_uniandesintroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D315D179611B7002F212B /* co_edu_uniandesintroViewController.m */; };
+		FA9D315F179611B7002F212B /* co_edu_uniandesintroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D315D179611B7002F212B /* co_edu_uniandesintroViewController.m */; };
+		FA9D31621797324D002F212B /* co_edu_uniandesProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D31611797324D002F212B /* co_edu_uniandesProfileViewController.m */; };
+		FA9D31631797324D002F212B /* co_edu_uniandesProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9D31611797324D002F212B /* co_edu_uniandesProfileViewController.m */; };
+		FA9F83191797B359000CCEDD /* co_edu_uniandesExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F83181797B359000CCEDD /* co_edu_uniandesExploreViewController.m */; };
+		FA9F831A1797B359000CCEDD /* co_edu_uniandesExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F83181797B359000CCEDD /* co_edu_uniandesExploreViewController.m */; };
+		FA9F831C1797CB3C000CCEDD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F831B1797CB3C000CCEDD /* MapKit.framework */; };
+		FA9F831E1797CB4A000CCEDD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F831D1797CB4A000CCEDD /* CoreLocation.framework */; };
+		FA9F83211797D086000CCEDD /* co_edu_uniandesWarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F83201797D086000CCEDD /* co_edu_uniandesWarmViewController.m */; };
+		FA9F83221797D086000CCEDD /* co_edu_uniandesWarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F83201797D086000CCEDD /* co_edu_uniandesWarmViewController.m */; };
+		FA9F83241797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9F83231797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg */; };
+		FA9F83251797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9F83231797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg */; };
 		FAC64FCB1793D8460033CA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCA1793D8460033CA8C /* UIKit.framework */; };
 		FAC64FCD1793D8460033CA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCC1793D8460033CA8C /* Foundation.framework */; };
 		FAC64FCF1793D8460033CA8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCE1793D8460033CA8C /* CoreGraphics.framework */; };
 		FAC64FD51793D8460033CA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FD31793D8460033CA8C /* InfoPlist.strings */; };
 		FAC64FD71793D8460033CA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FD61793D8460033CA8C /* main.m */; };
 		FAC64FDB1793D8460033CA8C /* co_edu_uniandesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FDA1793D8460033CA8C /* co_edu_uniandesAppDelegate.m */; };
-		FAC64FDD1793D8460033CA8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FDC1793D8460033CA8C /* Default.png */; };
-		FAC64FDF1793D8460033CA8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FDE1793D8460033CA8C /* Default@2x.png */; };
-		FAC64FE11793D8460033CA8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FE01793D8460033CA8C /* Default-568h@2x.png */; };
 		FAC64FE41793D8460033CA8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FE21793D8460033CA8C /* MainStoryboard.storyboard */; };
 		FAC64FE71793D8460033CA8C /* co_edu_uniandesMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */; };
 		FAC64FEA1793D8460033CA8C /* co_edu_uniandesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FE91793D8460033CA8C /* co_edu_uniandesDetailViewController.m */; };
@@ -24,6 +47,11 @@
 		FAC64FF41793D8470033CA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC64FCC1793D8460033CA8C /* Foundation.framework */; };
 		FAC64FFC1793D8470033CA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC64FFA1793D8470033CA8C /* InfoPlist.strings */; };
 		FAC64FFF1793D8470033CA8C /* TripapprestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64FFE1793D8470033CA8C /* TripapprestTests.m */; };
+		FAC6500B1793EA790033CA8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC6500A1793EA790033CA8C /* Default-568h@2x.png */; };
+		FAC6500D1793EA7D0033CA8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC6500C1793EA7D0033CA8C /* Default.png */; };
+		FAC6500F1793EA7F0033CA8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC6500E1793EA7F0033CA8C /* Default@2x.png */; };
+		FAC650111793EE390033CA8C /* icono1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC650101793EE390033CA8C /* icono1.png */; };
+		FAC650131793EF620033CA8C /* icono57.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC650121793EF620033CA8C /* icono57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +65,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0EDFC0179EE9840010C47F /* icono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icono.jpg; sourceTree = "<group>"; };
+		FA0EDFC2179EEDC20010C47F /* Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg"; sourceTree = "<group>"; };
+		FA0EDFC4179EEE450010C47F /* logo_uniandes copia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo_uniandes copia.jpg"; sourceTree = "<group>"; };
+		FA0EDFC6179EEEAA0010C47F /* IMG_1577.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1577.JPG; sourceTree = "<group>"; };
+		FA0EDFC8179EEFBA0010C47F /* Estrellita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Estrellita.png; sourceTree = "<group>"; };
+		FA0EDFCA179EF0220010C47F /* estrella mas puntas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estrella mas puntas.png"; sourceTree = "<group>"; };
+		FA0EDFCC179EF09B0010C47F /* camara.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camara.jpeg; sourceTree = "<group>"; };
+		FA9D313C179497D1002F212B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../Downloads/SidebarDemoEmpty/SidebarDemo/menu.png; sourceTree = "<group>"; };
+		FA9D313D179497D1002F212B /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../Downloads/SidebarDemoEmpty/SidebarDemo/menu@2x.png"; sourceTree = "<group>"; };
+		FA9D314F1795C611002F212B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FA9D31511795C784002F212B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FA9D31551795C892002F212B /* co_edu_uniandesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesMainViewController.h; sourceTree = "<group>"; };
+		FA9D31561795C892002F212B /* co_edu_uniandesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesMainViewController.m; sourceTree = "<group>"; };
+		FA9D3159179607DD002F212B /* 1366447141-sky-clouds-file.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1366447141-sky-clouds-file.jpg"; sourceTree = "<group>"; };
+		FA9D315C179611B7002F212B /* co_edu_uniandesintroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesintroViewController.h; sourceTree = "<group>"; };
+		FA9D315D179611B7002F212B /* co_edu_uniandesintroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesintroViewController.m; sourceTree = "<group>"; };
+		FA9D31601797324C002F212B /* co_edu_uniandesProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = co_edu_uniandesProfileViewController.h; path = ../co_edu_uniandesProfileViewController.h; sourceTree = "<group>"; };
+		FA9D31611797324D002F212B /* co_edu_uniandesProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = co_edu_uniandesProfileViewController.m; path = ../co_edu_uniandesProfileViewController.m; sourceTree = "<group>"; };
+		FA9F83171797B359000CCEDD /* co_edu_uniandesExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = co_edu_uniandesExploreViewController.h; path = ../co_edu_uniandesExploreViewController.h; sourceTree = "<group>"; };
+		FA9F83181797B359000CCEDD /* co_edu_uniandesExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = co_edu_uniandesExploreViewController.m; path = ../co_edu_uniandesExploreViewController.m; sourceTree = "<group>"; };
+		FA9F831B1797CB3C000CCEDD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA9F831D1797CB4A000CCEDD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA9F831F1797D086000CCEDD /* co_edu_uniandesWarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesWarmViewController.h; sourceTree = "<group>"; };
+		FA9F83201797D086000CCEDD /* co_edu_uniandesWarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesWarmViewController.m; sourceTree = "<group>"; };
+		FA9F83231797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue_sky_pictures_hd_leopard_apple-other.jpg"; sourceTree = "<group>"; };
 		FAC64FC71793D8460033CA8C /* Tripapprest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripapprest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC64FCA1793D8460033CA8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC64FCC1793D8460033CA8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,9 +100,6 @@
 		FAC64FD81793D8460033CA8C /* Tripapprest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tripapprest-Prefix.pch"; sourceTree = "<group>"; };
 		FAC64FD91793D8460033CA8C /* co_edu_uniandesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesAppDelegate.h; sourceTree = "<group>"; };
 		FAC64FDA1793D8460033CA8C /* co_edu_uniandesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesAppDelegate.m; sourceTree = "<group>"; };
-		FAC64FDC1793D8460033CA8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FAC64FDE1793D8460033CA8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		FAC64FE01793D8460033CA8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FAC64FE31793D8460033CA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FAC64FE51793D8460033CA8C /* co_edu_uniandesMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = co_edu_uniandesMasterViewController.h; sourceTree = "<group>"; };
 		FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = co_edu_uniandesMasterViewController.m; sourceTree = "<group>"; };
@@ -61,6 +111,12 @@
 		FAC64FFB1793D8470033CA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAC64FFD1793D8470033CA8C /* TripapprestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripapprestTests.h; sourceTree = "<group>"; };
 		FAC64FFE1793D8470033CA8C /* TripapprestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripapprestTests.m; sourceTree = "<group>"; };
+		FAC650081793E8090033CA8C /* fotoPortada1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fotoPortada1.png; path = ../../../Desktop/tripappster/fotoPortada1.png; sourceTree = "<group>"; };
+		FAC6500A1793EA790033CA8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAC6500C1793EA7D0033CA8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		FAC6500E1793EA7F0033CA8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		FAC650101793EE390033CA8C /* icono1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono1.png; path = ../icono1.png; sourceTree = "<group>"; };
+		FAC650121793EF620033CA8C /* icono57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono57.png; path = ../icono57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9F831E1797CB4A000CCEDD /* CoreLocation.framework in Frameworks */,
+				FA9F831C1797CB3C000CCEDD /* MapKit.framework in Frameworks */,
 				FAC64FCB1793D8460033CA8C /* UIKit.framework in Frameworks */,
 				FAC64FCD1793D8460033CA8C /* Foundation.framework in Frameworks */,
 				FAC64FCF1793D8460033CA8C /* CoreGraphics.framework in Frameworks */,
@@ -87,9 +145,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA9D31451794FA60002F212B /* Libreria */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D31511795C784002F212B /* SWRevealViewController.h */,
+				FA9D314F1795C611002F212B /* SWRevealViewController.m */,
+			);
+			name = Libreria;
+			sourceTree = "<group>";
+		};
 		FAC64FBE1793D8460033CA8C = {
 			isa = PBXGroup;
 			children = (
+				FA9D31451794FA60002F212B /* Libreria */,
 				FAC64FD01793D8460033CA8C /* Tripapprest */,
 				FAC64FF71793D8470033CA8C /* TripapprestTests */,
 				FAC64FC91793D8460033CA8C /* Frameworks */,
@@ -109,6 +177,8 @@
 		FAC64FC91793D8460033CA8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA9F831D1797CB4A000CCEDD /* CoreLocation.framework */,
+				FA9F831B1797CB3C000CCEDD /* MapKit.framework */,
 				FAC64FCA1793D8460033CA8C /* UIKit.framework */,
 				FAC64FCC1793D8460033CA8C /* Foundation.framework */,
 				FAC64FCE1793D8460033CA8C /* CoreGraphics.framework */,
@@ -125,8 +195,18 @@
 				FAC64FE21793D8460033CA8C /* MainStoryboard.storyboard */,
 				FAC64FE51793D8460033CA8C /* co_edu_uniandesMasterViewController.h */,
 				FAC64FE61793D8460033CA8C /* co_edu_uniandesMasterViewController.m */,
+				FA9D31601797324C002F212B /* co_edu_uniandesProfileViewController.h */,
+				FA9D31611797324D002F212B /* co_edu_uniandesProfileViewController.m */,
 				FAC64FE81793D8460033CA8C /* co_edu_uniandesDetailViewController.h */,
 				FAC64FE91793D8460033CA8C /* co_edu_uniandesDetailViewController.m */,
+				FA9D31551795C892002F212B /* co_edu_uniandesMainViewController.h */,
+				FA9D31561795C892002F212B /* co_edu_uniandesMainViewController.m */,
+				FA9D315C179611B7002F212B /* co_edu_uniandesintroViewController.h */,
+				FA9D315D179611B7002F212B /* co_edu_uniandesintroViewController.m */,
+				FA9F83171797B359000CCEDD /* co_edu_uniandesExploreViewController.h */,
+				FA9F83181797B359000CCEDD /* co_edu_uniandesExploreViewController.m */,
+				FA9F831F1797D086000CCEDD /* co_edu_uniandesWarmViewController.h */,
+				FA9F83201797D086000CCEDD /* co_edu_uniandesWarmViewController.m */,
 				FAC64FD11793D8460033CA8C /* Supporting Files */,
 			);
 			path = Tripapprest;
@@ -135,13 +215,27 @@
 		FAC64FD11793D8460033CA8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA9F83231797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg */,
+				FA0EDFC6179EEEAA0010C47F /* IMG_1577.JPG */,
+				FAC650121793EF620033CA8C /* icono57.png */,
+				FA0EDFCA179EF0220010C47F /* estrella mas puntas.png */,
+				FA0EDFCC179EF09B0010C47F /* camara.jpeg */,
+				FA0EDFC0179EE9840010C47F /* icono.jpg */,
+				FA0EDFC4179EEE450010C47F /* logo_uniandes copia.jpg */,
+				FA0EDFC8179EEFBA0010C47F /* Estrellita.png */,
+				FAC650101793EE390033CA8C /* icono1.png */,
+				FA9D3159179607DD002F212B /* 1366447141-sky-clouds-file.jpg */,
+				FA0EDFC2179EEDC20010C47F /* Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg */,
+				FAC6500E1793EA7F0033CA8C /* Default@2x.png */,
+				FA9D313C179497D1002F212B /* menu.png */,
+				FA9D313D179497D1002F212B /* menu@2x.png */,
+				FAC6500C1793EA7D0033CA8C /* Default.png */,
+				FAC6500A1793EA790033CA8C /* Default-568h@2x.png */,
+				FAC650081793E8090033CA8C /* fotoPortada1.png */,
 				FAC64FD21793D8460033CA8C /* Tripapprest-Info.plist */,
 				FAC64FD31793D8460033CA8C /* InfoPlist.strings */,
 				FAC64FD61793D8460033CA8C /* main.m */,
 				FAC64FD81793D8460033CA8C /* Tripapprest-Prefix.pch */,
-				FAC64FDC1793D8460033CA8C /* Default.png */,
-				FAC64FDE1793D8460033CA8C /* Default@2x.png */,
-				FAC64FE01793D8460033CA8C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,10 +332,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC64FD51793D8460033CA8C /* InfoPlist.strings in Resources */,
-				FAC64FDD1793D8460033CA8C /* Default.png in Resources */,
-				FAC64FDF1793D8460033CA8C /* Default@2x.png in Resources */,
-				FAC64FE11793D8460033CA8C /* Default-568h@2x.png in Resources */,
 				FAC64FE41793D8460033CA8C /* MainStoryboard.storyboard in Resources */,
+				FAC6500B1793EA790033CA8C /* Default-568h@2x.png in Resources */,
+				FAC6500D1793EA7D0033CA8C /* Default.png in Resources */,
+				FAC6500F1793EA7F0033CA8C /* Default@2x.png in Resources */,
+				FAC650111793EE390033CA8C /* icono1.png in Resources */,
+				FAC650131793EF620033CA8C /* icono57.png in Resources */,
+				FA9D313E179497D1002F212B /* menu.png in Resources */,
+				FA9D313F179497D1002F212B /* menu@2x.png in Resources */,
+				FA9D315A179607DD002F212B /* 1366447141-sky-clouds-file.jpg in Resources */,
+				FA9F83241797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg in Resources */,
+				FA0EDFC1179EE9840010C47F /* icono.jpg in Resources */,
+				FA0EDFC3179EEDC20010C47F /* Foto cuádruple el 14-04-13 a las 13.54 #5 (compilado).jpg in Resources */,
+				FA0EDFC5179EEE450010C47F /* logo_uniandes copia.jpg in Resources */,
+				FA0EDFC7179EEEAA0010C47F /* IMG_1577.JPG in Resources */,
+				FA0EDFC9179EEFBA0010C47F /* Estrellita.png in Resources */,
+				FA0EDFCB179EF0220010C47F /* estrella mas puntas.png in Resources */,
+				FA0EDFCD179EF09B0010C47F /* camara.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +357,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC64FFC1793D8470033CA8C /* InfoPlist.strings in Resources */,
+				FA9D315B179607DD002F212B /* 1366447141-sky-clouds-file.jpg in Resources */,
+				FA9F83251797E338000CCEDD /* blue_sky_pictures_hd_leopard_apple-other.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +389,12 @@
 				FAC64FDB1793D8460033CA8C /* co_edu_uniandesAppDelegate.m in Sources */,
 				FAC64FE71793D8460033CA8C /* co_edu_uniandesMasterViewController.m in Sources */,
 				FAC64FEA1793D8460033CA8C /* co_edu_uniandesDetailViewController.m in Sources */,
+				FA9D31501795C611002F212B /* SWRevealViewController.m in Sources */,
+				FA9D31571795C892002F212B /* co_edu_uniandesMainViewController.m in Sources */,
+				FA9D315E179611B7002F212B /* co_edu_uniandesintroViewController.m in Sources */,
+				FA9D31621797324D002F212B /* co_edu_uniandesProfileViewController.m in Sources */,
+				FA9F83191797B359000CCEDD /* co_edu_uniandesExploreViewController.m in Sources */,
+				FA9F83211797D086000CCEDD /* co_edu_uniandesWarmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC64FFF1793D8470033CA8C /* TripapprestTests.m in Sources */,
+				FA9D31581795C892002F212B /* co_edu_uniandesMainViewController.m in Sources */,
+				FA9D315F179611B7002F212B /* co_edu_uniandesintroViewController.m in Sources */,
+				FA9D31631797324D002F212B /* co_edu_uniandesProfileViewController.m in Sources */,
+				FA9F831A1797B359000CCEDD /* co_edu_uniandesExploreViewController.m in Sources */,
+				FA9F83221797D086000CCEDD /* co_edu_uniandesWarmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +580,7 @@
 				FAC650041793D8470033CA8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC650051793D8470033CA8C /* Build configuration list for PBXNativeTarget "TripapprestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +589,7 @@
 				FAC650071793D8470033CA8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
